@@ -7,5 +7,5 @@
 * No need to do the next steps unless you're testing because I've already created output files
 2. run ' uv sync ' to get create venv and install dependencies
 3. run ' .venv\Scripts\Activate '
-4. run ' uv run LLM_for_grammar.py ' or ' uv run medical_keyword_script.py '
+4. run ' uv run src/LLM_for_grammar.py ' or ' uv run src/medical_keyword_script.py '
 
