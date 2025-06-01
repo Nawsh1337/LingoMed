@@ -1,0 +1,88 @@
+#FIRST 5 that do have grammar****************
+[
+  {
+    "keyword": "Pflege",
+    "sentence": "Auf meine Bitte um Stellungnahme hat mir die Pflegekasse mitgeteilt, dass der entsprechende Antrag zwischenzeitlich überarbeitet worden sei.",
+    "matched_keyword": "Pflegekasse",
+    "grammar": {
+      "Passiv": true,
+      "Konjunktiv": true,
+    }
+  },
+  {
+    "keyword": "Behandlung",
+    "sentence": "Da die Hormone in der „Pille“ auch Nebenwirkungen haben können, werden sie zur Akne-Behandlung erst verschrieben, wenn andere Mittel nicht helfen.",
+    "matched_keyword": "Behandlung",
+    "grammar": {
+      "Passiv": true,
+    }
+  },
+  {
+    "keyword": "Medizin",
+    "sentence": "Außerdem soll die „sprechende Medizin“ aufgewertet werden.",
+    "matched_keyword": "Medizin",
+    "grammar": {
+      "Passiv": true,
+    }
+  },
+  {
+    "keyword": "Arzt",
+    "sentence": "Bei einem Arztbesuch wird der Mediziner zunächst die Krankheitsgeschichte seines Patienten aufnehmen, sich Art und Dauer des Schmerzes beschreiben lassen und notieren, wann der Schmerz auftritt.",
+    "matched_keyword": "Arztbesuch",
+    "grammar": {
+      "Passiv": true,
+    }
+  },
+  {
+    "keyword": "Therapie",
+    "sentence": "Auch in der Therapie von bösartigen Tumorerkrankungen der werden zunehmend mit minimalinvasiven Techniken in unserer Klinik behandelt.",
+    "matched_keyword": "Therapie",
+    "grammar": {
+      "Passiv": true,
+    }
+  }
+]
+
+
+#FIRST 5 regardless of whether they have or do not have grammar
+
+[
+  {
+    "keyword": "Pflege",
+    "sentence": "Als \"Beilage\" gibt es einen schriftlichen Gruß von der Krankenhausleitung und dem Pflegedienst.",
+    "matched_keyword": "Pflegedienst",
+    "grammar": {
+    }
+  },
+  {
+    "keyword": "Behandlung",
+    "sentence": "Andere Formen der Behandlung mit Zellen und auch die Gentherapie sind bei Immundefekten in Entwicklung.",
+    "matched_keyword": "Behandlung",
+    "grammar": {
+    }
+  },
+  {
+    "keyword": "Medizin",
+    "sentence": "Anders formuliert: Durch ein Qualitätsmanagementsystem ist es möglich, Prozesse so zu konzipieren, dass das Medizinprodukt den Kundenanforderungen in Bezug auf die Qualität entspricht.",
+    "matched_keyword": "Medizinprodukt",
+    "grammar": {
+    }
+  },
+  {
+    "keyword": "Arzt",
+    "sentence": "Anhand dieser Liste kann der Arzt nachvollziehen, welche Gültigkeit die übermittelten Dokumentationen erhalten haben.",
+    "matched_keyword": "Arzt",
+    "grammar": {
+      "Relativsatz": true
+    }
+  },
+  {
+    "keyword": "Therapie",
+    "sentence": "Auch in der Therapie von bösartigen Tumorerkrankungen der werden zunehmend mit minimalinvasiven Techniken in unserer Klinik behandelt.",
+    "matched_keyword": "Therapie",
+    "grammar": {
+      "Passiv": true,
+    }
+  }
+]
+

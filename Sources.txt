@@ -1,0 +1,13 @@
+Dataset
+    https://wortschatz.uni-leipzig.de/en/download/German#deu_wikipedia_2021 
+    germany 2019
+
+Passive 
+    https://universaldependencies.org/u/feat/Voice.html
+
+konjunktiv/subjunctive
+    https://universaldependencies.org/u/feat/Mood.html
+
+Relativ
+    https://universaldependencies.org/u/feat/PronType.html
+    https://universaldependencies.org/u/dep/acl-relcl.html
